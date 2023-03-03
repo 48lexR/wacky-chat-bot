@@ -15,9 +15,9 @@ class Lexobot:
     def __call__(self):
 
         client = DiscourseClient(
-            HOST,
-            api_username=USERNAME,
-            api_key=API_KEY)
+            host=self.host,
+            api_username=self.username,
+            api_key=self.api_key)
 
         print("Connected!")
         notifs: dict = getNotifications(client)
