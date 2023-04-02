@@ -2,8 +2,8 @@ from pydiscourse import DiscourseClient
 from bs4 import BeautifulSoup
 import re
 import time
-HOST = 'https://forum.wackywriters.com/'
-API_KEY = 'c693a7de660e6855ef397e0c0cc25b9c9fa5974287e5196bdfaa41ba079a6cfc'
+HOST = 'HOST'
+API_KEY = 'API_KEY'
 USERNAME = 'Lexobot'
 
 
